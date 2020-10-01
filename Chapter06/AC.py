@@ -251,4 +251,4 @@ s
 
 
 if __name__ == '__main__':
-    AC('LunarLander-v2', hidden_sizes=[64], ac_lr=4e-3, cr_lr=1.5e-2, gamma=0.99, steps_per_epoch=100, steps_to_print=5000, num_epochs=8000)
+    AC('LunarLander-v3', hidden_sizes=[64], ac_lr=4e-3, cr_lr=1.5e-2, gamma=0.99, steps_per_epoch=100, steps_to_print=5000, num_epochs=8000)
